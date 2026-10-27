@@ -1,0 +1,11 @@
+# Exemplo para a opção "Importar operações" (menu principal, opção 6).
+# Formato: chave;tipo;conta;destino;valor[;senhaTransacao]
+# Ajuste os números das contas (1 e 2) para contas que existam no seu banco.
+chave;tipo;conta;destino;valor
+op-001;DEPOSITO;1;;150,00
+op-002;DEPOSITO;1;;75,50
+op-003;SAQUE;1;;20,00
+op-004;TRANSFERENCIA;1;2;100,00
+op-001;DEPOSITO;1;;150,00
+op-005;SAQUE;1;;99999,00
+op-006;PIX;1;;10,00
